@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(img/HG.svg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    /* background-image: url(img/BG\ Hero.svg);
+    position: absolute; */
+    /* BG Hero */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.link ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+
+.tepa {
+
+    background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
+    width: 100%;
+    height: 1400px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+
+.link ul li a {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.akk {
+    font-family: 'Gilroy';
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.line {
+    width: 72px;
+    height: 2px;
+    background: #FBD784;
+}
+
+.hiki {
+
+    height: 22px;
+
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+
+.bir-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bir-group1 {
+    display: flex;
+}
+
+h1 {
+    width: 950px;
+    height: 200px;
+
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.down {
+    width: 94px;
+    height: 22px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.birinchi {
+    background-image: url(img/MG.svg);
+    background-size: cover;
+    width: 100%;
+    height: 1400px;
+    position: absolute;
+    top: 300px;
+}
+
+.birinchi-content {
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+}
+
+.ikkinchi {
+    background-image: url(img/VG.svg);
+    background-size: cover;
+    width: 100.65%;
+    height: 926px;
+    margin-top: 490px;
+    margin-left: -10px;
+}
+
+.card {
+    display: flex;
+    position: absolute;
+    top: 250%;
+}
+
+.ikki-content {
+    height: 3600px;
+    background: #0B1D26;
+}
+
+h2 {
+    /* What level of hiker are you? */
+
+    width: 555px;
+    height: 154px;
+
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin-top: 20px;
+}
+
+.card-tetx {
+    height: 22px;
+    left: 96px;
+    top: 0px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+    margin-top: 20px;
+}
+
+.card-p {
+    width: 600px;
+    height: 160px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: center;
+    flex-grow: 0;
+    margin-top: 20px;
+}
+
+.read {
+    width: 87px;
+    height: 22px;
+    left: 0px;
+    top: 417px;
+
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 22px;
+    color: #FBD784;
+    margin-top: 20px;
+}
+
+
+.card01 {
+    /* Equipment */
+
+    position: absolute;
+    left: 0%;
+    right: 100%;
+    /* top: 0.1%; */
+    bottom: 61.39%;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 240px;
+    /* identical to box height, or 100% */
+
+    color: #FFFFFF;
+
+    opacity: 0.1;
+}
+
+.pass {
+    background-image: url(img/BG\ Content.svg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    padding-top: 800px;
+}
+
+.left {
+    margin-left: 130px;
+    margin-top: 150px;
+}
+
+.card1 {
+    padding-top: 1000px;
+    position: absolute;
+}
+
+.left1 {
+    margin-right: 130px;
+    margin-top: 150px;
+    /* margin-left: 100px; */
+}
+
+.card-left1 {
+    padding-left: 80px;
+}
+
+.card1 {
+    display: flex;
+}
+
+.card02 {
+    position: absolute;
+    left: 46.51%;
+    right: 40%;
+    /* top: 5.28%; */
+    bottom: 25%;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 240px;
+    /* identical to box height, or 100% */
+
+    color: #FFFFFF;
+
+    opacity: 0.1;
+
+}
+
+.card2 {
+    display: flex;
+    padding-top: 2000px;
+}
+
+.card03 {
+    /* Equipment */
+
+    position: absolute;
+    left: 7.5%;
+    right: 81.12%;
+    top: 525%;
+    bottom: 61.39%;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 240px;
+    /* identical to box height, or 100% */
+
+    color: #FFFFFF;
+
+    opacity: 0.1;
+
+}
+
+footer {
+    background: #0B1D26;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    width: 303px;
+    height: 64px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.footer-p {
+    width: 347px;
+    height: 32px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-top: 50px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li a {
+    width: 104px;
+    height: 32px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-links ul li:first-child a{
+    width: 161px;
+    height: 32px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FBD784;
+}
